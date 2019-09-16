@@ -17,10 +17,10 @@ namespace ConsoleApp1
             int guessLimit = 3;
 
             bool outOfLuck = false;
-            string secretWord = "cow";
+            string correctAnswer = "cow";
             string guess = "";
             
-                while (guess != secretWord && !outOfLuck)
+                while (guess != correctAnswer && !outOfLuck)
                 {
                     if (guessCount < guessLimit)
                     {
